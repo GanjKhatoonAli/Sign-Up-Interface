@@ -1,0 +1,99 @@
+body{
+    background-image: linear-gradient(135deg, rgb(16, 16, 46),rgb(32, 4, 53));
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+.container{
+    background-image: linear-gradient(57deg, rgb(16, 16, 46),rgb(32, 4, 53),#A29BFE);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 450px;
+    border: 2px ridge transparent;
+    width: 70%;
+    height: 300px;
+    max-width: 300px;
+    padding: 50px;
+    box-shadow: 2px 2px 2px silver;
+    border-radius: 30px;
+    position: relative;
+}
+ .he{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+span{
+    color: white;
+    font-weight: bolder;
+
+}
+span img{
+    filter: invert(1);
+    width: 20px;
+    vertical-align: middle;
+} 
+.main img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+h1{
+    color: white;
+   font-size: 30px;
+   position: absolute;
+   top: 60px;
+   left: 30px;
+} 
+button img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 350px;
+   
+}
+.btn{
+    position: absolute;
+    top: 300px; 
+    border: 1px solid rgb(160, 158, 158);
+   box-shadow: 2px 2px 2px silver;
+}
+.hello
+{
+    position: absolute;
+    top: 370px;
+    border: 1px solid rgb(160, 158, 158);
+    box-shadow: 2px 2px 2px silver;
+}
+.end{
+    position: absolute;
+    top: 650px;
+    color: rgb(175, 174, 174);
+}
+strong{
+    color: rgb(223, 218, 218);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(20, 20, 20);
+    cursor: pointer;
+}
